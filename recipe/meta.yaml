@@ -1,5 +1,5 @@
 {% set name = "fastapi-azure-auth" %}
-{% set version = "4.3.0" %}
+{% set version = "4.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 525bdd446c790071ca74bf4e4596dc7f1b232eb8766d55996d79f991b871c8b3
+  sha256: aaa6c61909e53cca3d73d9ee84e71adc680cd0a7bd8f51578d626706a6aa91b3
 
 build:
   number: 0
